@@ -1,0 +1,49 @@
+.layout-container {
+    max-width: 1200px;
+    margin: 30px auto; /* Centrar el contenido horizontalmente */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    backdrop-filter: blur(10px); /* Suaviza el fondo detrás del contenido */
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 400px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de tarjeta */
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6; /* Línea de separación en el encabezado */
+}
+
+.modal-title {
+    font-size: 1.5rem; /* Tamaño de la fuente del título */
+}
+
+.modal-body {
+    padding: 20px; /* Espaciado interno del cuerpo de la modal */
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6; /* Línea de separación en el pie */
+    padding: 10px; /* Espaciado interno del pie de la modal */
+}
